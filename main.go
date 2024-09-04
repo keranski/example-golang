@@ -3,12 +3,8 @@ package main
 import (
 	"fmt"
 	"log"
-	"math/big"
 	"net/http"
-
-	"github.com/btcsuite/btcec"
-	"github.com/btcsuite/btcnet"
-	"github.com/btcsuite/btcutil"
+	"os"
 )
 
 func main() {
